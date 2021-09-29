@@ -10,7 +10,19 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+/* RUTA PRINCIPAL */
+/*Route::get('/', function () {
+    return view('mipag');
+});*/
 
-Route::get('/', function () {
-    return view('welcome');
+/* RUTA DE PRODUCTOS */
+/*Route::get('/', function () {
+    return view('producto/producto');
 });
+/* RUTA DESDE FUNTION */
+Route::get('/', function () {
+    return "soy un hola mundo desde una ruta";
+});
+
+
+
