@@ -11,18 +11,21 @@
 |
 */
 /* RUTA PRINCIPAL */
-/*Route::get('/', function () {
+Route::get('/', function () {
     return view('mipag');
-});*/
+});
 
 /* RUTA DE PRODUCTOS */
-/*Route::get('/', function () {
+Route::get('/producto', function () {
     return view('producto/producto');
 });
 /* RUTA DESDE FUNTION */
-Route::get('/', function () {
+Route::get('/funrut', function () {
     return "soy un hola mundo desde una ruta";
 });
 
-
+/* RUTA DE BLADE */
+Route::get('/miprimerl', function () {
+    return view('child');
+});
 

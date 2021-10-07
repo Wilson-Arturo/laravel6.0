@@ -12,6 +12,14 @@
       
     </head>
     <body>
-    <h1>SOY UN HOLA MUNDO DSM-41</h1>
+        <!--section define una seccion de un contenido-->
+    @section('siderbar')
+
+    modifique mi siderbar desde mi layout master mipag
+
+    <div class="container">
+<!-- Yield es utilizada para mostrar contenido de una seccion determinada-->
+esto es texto plano ---este es mi contenido desde mi layout master
+    </div>
     </body>
 </html>
